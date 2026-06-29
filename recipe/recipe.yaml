@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.6.1"
+  version: 0.7.0
 
 package:
   name: guidellm
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/g/guidellm/guidellm-${{ version }}.tar.gz
-  sha256: 65838e8cc3d14329cdfcef04d377c3c3e409b3c9b33e2399f1f7bec8ef6d0605
+  sha256: 3432e72c61995fabcb845c0a2f3831771a663255c8efbd86a9687299e1356d03
 
 build:
   number: 0
@@ -46,7 +46,8 @@ requirements:
     - uvloop >=0.18
     - pytorch
     - more-itertools >=10.8.0
-
+    - typing_extensions >=4.15.0
+    - websockets >=13.0
 tests:
   - python:
       python_version:
