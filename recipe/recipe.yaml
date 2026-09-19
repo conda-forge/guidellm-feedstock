@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 0.7.3
+  version: "0.7.4"
 
 package:
   name: guidellm
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/g/guidellm/guidellm-${{ version }}.tar.gz
-  sha256: 49dd35421bffefcdd1a7ef44aa81f4c667d8b5a122b8eedd608d222b9f24aba2
+  sha256: 664073bbb91551256bf529d422efa5637eb7831743bcdb47237d80bd380385bd
 
 build:
   number: 0
