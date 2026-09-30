@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.7.4"
+  version: 0.8.0
 
 package:
   name: guidellm
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/g/guidellm/guidellm-${{ version }}.tar.gz
-  sha256: 664073bbb91551256bf529d422efa5637eb7831743bcdb47237d80bd380385bd
+  sha256: a319650128089abd584b92264fa14385d55c6f91b3aa276d3c8abdb1e062e689
 
 build:
   number: 0
@@ -27,7 +27,7 @@ requirements:
     - python >=${{ python_min }}
     - click >=8.4.0,<8.5.dev0
     - culsans >=0.10.0,<0.11.dev0
-    - datasets >=4.1.0
+    - datasets >=5.0.1
     - eval_type_backport
     - faker
     - ftfy >=6.0.0
